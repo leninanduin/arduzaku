@@ -2,9 +2,9 @@
 // constants won't change. They're used here to
 // set pin numbers:
 //int soundPin = 6;
-const int ojoPin = 1;
-const int botonPin = 2;
-const int servoPin = 0;
+const int ojoPin = 1; //pwm pin
+const int botonPin = 2; //digital pin
+const int servoPin = 0; //analog pin
 Servo servo;
 
 // variables will change:

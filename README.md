@@ -3,6 +3,10 @@
 
 zaku-digispark.ino to being used with digispark boards, include SimpleServo.h library, since normal servo doesn't work with digispark boards.
 
+follow this tutorial http://digistump.com/wiki/digispark/tutorials/connecting to load the file into the digispak boards.
+
+for other arduino boards follow the default procedure.
+
 you can print the zaku-digispark-board.pdf and etch your own boards.
 
 Folow the desing in zaku-digispark.board.pdf to connect the components.

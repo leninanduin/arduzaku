@@ -16,9 +16,7 @@ void setup() {
   pinMode(ojoPin, OUTPUT);
   pinMode(botonPin, INPUT);
   //servo
-//  servo.attach(servoPin);
   servo = Servo_attach(servoPin);
-//  servo.write(90);
   Servo_write(servo,90);
 }
 
@@ -70,17 +68,14 @@ void vigilar() {
   int pos_min = 45;
 
   for (pos = pos_min; pos <= pos_max; pos += 1) {
-//    servo.write(pos);
     Servo_write(servo,pos);
     delay(10);
   }
   delay(500);
   for (pos = pos_max; pos >= pos_min; pos -= 1) {
-//    servo.write(pos);
     Servo_write(servo,pos);
     delay(10);
   }
   delay(500);
-//  servo.write(90);
   Servo_write(servo,90);
 }

@@ -1,5 +1,6 @@
 #include <Arduino.h>
 #include <Servo.h>
+// smt8 documentation on https://github.com/tenbaht/sduino
 // constants won't change. They're used here to
 // set pin numbers:
 //int soundPin = 6;
